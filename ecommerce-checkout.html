@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Fidex Checkout Page</title>
+</head>
+<body>
+<section>
+<h1>Checkout</h1>
+<h2>Your Cart</h2>
+<img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="Three dices on one another in a plain background">
+</section>
+<section>
+<h2>Payment Information</h2>
+<form>
+<label for="card-name">
+Cardholder Name
+<span aria-hidden="true">*</span></label>
+<input type="text" id="card-name" name="card-name" required>
+<label for="card-number">
+Card Number
+<span aria-hidden="true">*</span></label>
+<input type="text" id="card-number" name="card-number" aria-describedby="card-number-help" required>
+<p id="card-number-help">please enter your 16 digits card number without space or dash</p>
+<button type="button">Proceed to Payment</button>
+</form>
+</section>
+</body>
+</html>

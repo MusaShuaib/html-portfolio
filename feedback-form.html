@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Fidex Character Feedback Form</title>
+</head>
+<body>
+<header>
+<h1>Fidex Character Feedback Form</h1>
+<p>Thank you for beleiving in us. Your feedback means a lot to our existence</p>
+</header>
+<main>
+<form method="POST" action="https://hotel-feedback.freecodecamp.org">
+<fieldset size="50">
+<legend>Responder Information</legend>
+<label for="full-name">Name (required):</label>
+<input type="text" name="name" id="name" placeholder="e.g., Musa Fidex" required>
+<br />
+<label for="email">Email (required):</label>
+<input type="email-address" name="email" id="email" placeholder="example@gmail.com" required>
+<br />
+<label for="age">Age (optional):</label>
+<input type="number" name="age" id="age" placeholder="e.g., 35">
+</fieldset>
+<br />
+<fieldset>
+<legend>Do you know Fidex personally?</legend>
+<input type="radio" name="know-fidex" id="yes-option" value="yes">
+<label for="yes-option">Yes</label>
+<input type="radio" name="know-fidex" id="no-option" value="no">
+<label for="no-option">No</label>
+</fieldset>
+<br />
+<fieldset>
+<legend>How did you know Fidex? (Check all that apply)</legend>
+
+<input type="checkbox" id="crier" name="choice" value="crier">
+<label for="crier">Social Media Crier</label>
+
+<input type="checkbox" id="recommendation" name="choice" value="recommendation">
+<label for="recommendation">Recommendation</label>
+
+<input type="checkbox" id="physical-acquaintance" name="choice" value="physical-acquaintance">
+<label for="physical-acquaintance">Physical Acquaintance</label>
+
+<input type="checkbox" id="reputation" name="choice" value="reputation" checked>
+<label for="reputation">Reputation</label>
+
+<input type="checkbox" id="charity" name="choice" value="charity">
+<label for="charity">Charity</label>
+</fieldset>
+
+<fieldset>
+<legend>Ratings</legend>
+
+<label for="Character">How is his Character?</label>
+<select name="character" id="character">
+<option value="excellent">Excellent</option>
+<option value="good">Good</option>
+<option value="bad">Bad</option>
+<option value="poor">Poor</option>
+</select>
+
+<label for="elite-level">How is his level of Education?</label>
+<select name="elite-level" id="elite-level">
+<option value="excellent">Excellent</option>
+<option value="good">Good</option>
+<option value="bad">Bad</option>
+<option value="poor">Poor</option>
+</select>
+
+<br />
+<label for="comments">Other Comments?</label>
+<textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+<button>Submit</button>
+</fieldset>
+</form>
+</main>
+</body>
+</html>
